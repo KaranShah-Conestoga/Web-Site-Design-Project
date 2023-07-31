@@ -2,21 +2,271 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-    <script type="module" src="./main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+  <script type="module" src="./main.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <nav-bar></nav-bar>
-        <div class="main-contain">
-            <h1>Menu Page</h1>
-        </div>
-        <footer-bar></footer-bar>
+  <div class="container">
+    <nav-bar></nav-bar>
+    <div class="main-contain">
+      <div class="box" action="search.html">
+        <form action="search.html" onsubmit="return submitForm()">
+          <input type="search" id="search" placeholder="Search" />
+        </form>
+      </div>
+      <h1>Sweet Crepe Menu </h1>
+      <table>
+        <tr>
+          <td>Classic butter and syrup</td>
+          <td>A classic French style crepe served with whipped cream</td>
+          <td>6.40</td>
+        </tr>
+        <tr>
+          <td>Maple Sugar</td>
+          <td>Maple sugar, maple syrup, and generous whipped cream</td>
+          <td>8.40</td>
+        </tr>
+        <tr>
+          <td>Chocolate Banana</td>
+          <td>World-famous Nutella and whipped cream</td>
+          <td>7.00</td>
+        </tr>
+        <tr>
+          <td>Strawberry</td>
+          <td>Rich chocolate and banana slices with whipped cream</td>
+          <td>7.40</td>
+        </tr>
+        <tr>
+          <td>Blueberry</td>
+          <td>In-season fresh strawberries, glaze, and whipped cream</td>
+          <td>7.40</td>
+        </tr>
+        <tr>
+          <td>Apple Caramel</td>
+          <td>In-season fresh wild blueberries with whipped cream</td>
+          <td>7.40</td>
+        </tr>
+        <tr>
+          <td>Hawaiian</td>
+          <td>Fresh apples, cinnamon, and caramel drizzle</td>
+          <td>8.40</td>
+        </tr>
+        <tr>
+          <td>Lemon butter</td>
+          <td>Pineapple and Sweet Syrup</td>
+          <td>8.00</td>
+        </tr>
+        <tr>
+          <td>Make your own Tutti-frutti</td>
+          <td>Lemon, lime, buttery syrup, and powdered sugar</td>
+          <td>9.00</td>
+        </tr>
+        <tr>
+          <td>Additions</td>
+          <td>Choose up to four from a list of fresh ingredients listed on the menu</td>
+          <td>Complimentary</td>
+        </tr>
+      </table>
+
+      <h1>Savoury Crepe Menu</h1>
+      <table>
+
+        <tr>
+          <td>Breakfast Crepe</td>
+          <td>Cheese Ham and Egg Crepe</td>
+          <td>9.00</td>
+        </tr>
+        <tr>
+          <td>Room for Mushroom</td>
+          <td>Creamy mushroom crepe served with gravy</td>
+          <td>8.00</td>
+        </tr>
+        <tr>
+          <td>Bacon and Onion</td>
+          <td>Smoky bacon, sweet Vidalia onion, and French cheese</td>
+          <td>8.60</td>
+        </tr>
+        <tr>
+          <td>Roasted Vegetable</td>
+          <td>Seasonal roasted veggies with leeks</td>
+          <td>9.00</td>
+        </tr>
+        <tr>
+          <td>French Herb</td>
+          <td>Savoury garden herbs from local farms</td>
+          <td>8.00</td>
+        </tr>
+        <tr>
+          <td>Cheese Please</td>
+          <td>Three types of cheese – Cheddar, Swiss, and Havarti</td>
+          <td>9.60</td>
+        </tr>
+        <tr>
+          <td>Cheddar Delight</td>
+          <td>Loads of Canadian Cheddar</td>
+          <td>9.00</td>
+        </tr>
+        <tr>
+          <td>Make your own</td>
+          <td>Choose from a list of fresh ingredients on the menu</td>
+          <td>Ask server</td>
+        </tr>
+      </table>
+
+      <h1>Espresso/Coffee Drinks</h1>
+      <table>
+        <tr>
+          <td>Drip Coffee of the Day</td>
+          <td>12oz small</td>
+          <td>2.00</td>
+        </tr>
+        <tr>
+          <td>Drip Coffee of the Day</td>
+          <td>16 oz regular</td>
+          <td>2.25</td>
+        </tr>
+        <tr>
+          <td>Drip Coffee of the Day</td>
+          <td>20 oz large</td>
+          <td>2.50</td>
+        </tr>
+        <tr>
+          <td>Decaf</td>
+          <td>12oz small</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Espresso</td>
+          <td>16 oz regular</td>
+          <td>2.50</td>
+        </tr>
+        <tr>
+          <td>Cappucino</td>
+          <td>20 oz large</td>
+          <td>3.50</td>
+        </tr>
+        <tr>
+          <td>Flat White</td>
+          <td>Smooth and creamy</td>
+          <td>3.75</td>
+        </tr>
+        <tr>
+          <td>Latte</td>
+          <td>Smooth and creamy</td>
+          <td>3.75</td>
+        </tr>
+        <tr>
+          <td>Cortado</td>
+          <td>Served the traditional way</td>
+          <td>3.75</td>
+        </tr>
+        <tr>
+          <td>Americano</td>
+          <td>Caramel, Vanilla, Hazelnut, Blackberry</td>
+          <td>3.25</td>
+        </tr>
+        <tr>
+          <td>Mochaccino</td>
+          <td>Steeped for 20 hours – rich and smooth</td>
+          <td>4.00</td>
+        </tr>
+        <tr>
+          <td>Add Flavour Shot</td>
+          <td>Oat, Soy, Almond or Coconut</td>
+          <td>1.00</td>
+        </tr>
+        <tr>
+          <td>Cold Brew</td>
+          <td>12oz small</td>
+          <td>3.50</td>
+        </tr>
+        <tr>
+          <td>Substitute for non-dairy</td>
+          <td>16 oz regular</td>
+          <td>0.50</td>
+        </tr>
+      </table>
+
+      <h1>Hot Drinks</h1>
+      <table>
+        <tr>
+          <td>Steeped Tea</td>
+          <td>Black Tea</td>
+          <td>2.00</td>
+        </tr>
+        <tr>
+          <td>Herbal Tea</td>
+          <td>Ask for available varieties (mint, chamomile, berry, etc.)</td>
+          <td>2.50</td>
+        </tr>
+        <tr>
+          <td>Hot Chocolate</td>
+          <td>Creamy and rich milk chocolate with whipped cream</td>
+          <td>3.75</td>
+        </tr>
+        <tr>
+          <td>Chai Tea</td>
+          <td>Ask server for chai options</td>
+          <td>3.75</td>
+        </tr>
+        <tr>
+          <td>Green Tea</td>
+          <td>Macha traditional style</td>
+          <td>3.75</td>
+        </tr>
+        <tr>
+          <td>Herbal Tea for Two</td>
+          <td>Pot of steeped herbal tea (variety available)</td>
+          <td>5.00</td>
+        </tr>
+      </table>
+
+      <h1>Cold Drinks</h1>
+      <table>
+        <tr>
+          <td>Refreshers</td>
+          <td>Italian style sodas (strawberry, raspberry, peach, mango, blackberry, lemon, lime, cherry, melon, punch,
+            vanilla, orange, creamsicle, caramel dream)</td>
+          <td>4.00</td>
+        </tr>
+        <tr>
+          <td>Fruit Juices</td>
+          <td>Varieties available</td>
+          <td>3.50</td>
+        </tr>
+        <tr>
+          <td>Iced Tea</td>
+          <td>Nestea on tap</td>
+          <td>3.50</td>
+        </tr>
+        <tr>
+          <td>White and Chocolate Milk</td>
+          <td>Local dairy, pure filtered</td>
+          <td>3.50</td>
+        </tr>
+        <tr>
+          <td>Mineral Water</td>
+          <td>Evian</td>
+          <td>3.00</td>
+        </tr>
+        <tr>
+          <td>Sparkling Water</td>
+          <td>Perrier or Montpellier</td>
+          <td>3.00</td>
+        </tr>
+        <tr>
+          <td>Other bottled drinks</td>
+          <td>Options Available</td>
+          <td>4.00</td>
+        </tr>
+      </table>
     </div>
+    <footer-bar></footer-bar>
+  </div>
 </body>
 
 </html>
