@@ -39,33 +39,32 @@ class footer extends HTMLElement {
                 </div>
             </div>
             <div class="title-branch">
-                <h2>AboutUs</h2>
+                <h2>Careers</h2>
                 <div class="branch">
-                    <a href="#">Our Company</a>
-                    <a href="#">Our coffee</a>
-                    <a href="#">Stories and News</a>
-                    <a href="#">Investor Relation</a>
-                    <a href="#">Customer Services</a>
+                    <a href="#">Culture and Values</a>
+                    <a href="#">Diversity and Inclusion</a>
+                    <a href="#">Work at Les Crepes</a>
+                    <a href="#">Corporate Careers</a>
+                    <a href="#">Retail Careers</a>
                 </div>
             </div>
             <div class="title-branch">
-                <h2>AboutUs</h2>
+                <h2>Social Impact</h2>
                 <div class="branch">
-                    <a href="#">Our Company</a>
-                    <a href="#">Our coffee</a>
-                    <a href="#">Stories and News</a>
-                    <a href="#">Investor Relation</a>
-                    <a href="#">Customer Services</a>
+                    <a href="#">Overview</a>
+                    <a href="#">People</a>
+                    <a href="#">Planet</a>
+                    <a href="#">Environmental and Social Impact Reporting</a>
                 </div>
             </div>
             <div class="title-branch">
-                <h2>AboutUs</h2>
+                <h2>Order and Pickup</h2>
                 <div class="branch">
-                    <a href="#">Our Company</a>
-                    <a href="#">Our coffee</a>
-                    <a href="#">Stories and News</a>
-                    <a href="#">Investor Relation</a>
-                    <a href="#">Customer Services</a>
+                    <a href="#">Order on the App</a>
+                    <a href="#">Order on the Web</a>
+                    <a href="#">Delivery</a>
+                    <a href="#">Order and Pickup</a>
+                    <a href="#">Options</a>
                 </div>
             </div>
         </div>
@@ -79,14 +78,14 @@ class footer extends HTMLElement {
             <div class="privacy-terms-partner-information">
                 <!-- create like     Privacy Notice     |     Terms of Use     |     Do Not Share My Personal Information     |     Partners one -->
                 <div class="footer-links">
-                    <a href="#">Privacy Notce</a>
+                    <a href="#">Privacy Notice</a>
                     <a href="#">Terms of Use</a>
                     <a href="#">Do Not Share My Personal Information</a>
                     <a href="#">Partners</a>
                 </div>
             </div>
             <div class="copyright">
-                <p>© 2023 Coffee Beans Company. All rights reserved.</p>
+                <p>© 2023 Coffee Les Crepes. All rights reserved.</p>
             </div>
 
         </div>

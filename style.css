@@ -41,6 +41,14 @@ p {
     justify-content: center;
 
 }
+.home-title{
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
 
 .main-contain {
     display: flex;
@@ -229,8 +237,7 @@ footer {
     top: 0;
     left: 0;
     opacity: 0.8;
-    padding-bottom: 1%;
-    opacity: 0.6s;
+  
 }
 
 .video-container .text-on-videos {
@@ -274,7 +281,7 @@ footer {
     height: 240px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     /* Optional border style */
 }
 
@@ -403,6 +410,10 @@ td:nth-child(3) {
     border: 1px solid #e1d1b6;
     /* Border color */
     padding: 5px;
+    overflow: hidden;
+    /* fit image content */
+    position: relative;
+    
     /* Add some padding around the image */
 }
 
