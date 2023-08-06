@@ -8,11 +8,12 @@ class NavBar extends HTMLElement {
             </div>
             <div class="nav-options">
                 <ul>
-                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="./menu.html">Menu</a></li>
                     <li><a href="./gallery.html">Gallery</a></li>
                     <li><a href="./aboutUs.html">About Us</a></li>
-                    <li><a href="#">Profile</a></li>
+                    <li><a href="./review.html">Review</a></li>
+                    <li><a href="./contactUs.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
