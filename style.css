@@ -404,17 +404,11 @@ td:nth-child(3) {
     border-radius: 8px;
     overflow: hidden;
     background-color: #f7f1e3;
-    /* Coffee-colored background */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    /* Shadow effect */
     border: 1px solid #e1d1b6;
-    /* Border color */
     padding: 5px;
     overflow: hidden;
-    /* fit image content */
     position: relative;
-    
-    /* Add some padding around the image */
 }
 
 .image img {
